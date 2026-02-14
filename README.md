@@ -35,6 +35,8 @@ Are customs delays expected?
 
 The goal is proactive decision support — not reactive reporting.
 
+# 🖼 Dashboard Preview
+
 <img width="1312" height="737" alt="los_angeles_port_perf" src="https://github.com/user-attachments/assets/0d9e9d19-386d-4154-8284-e19eabe01112" />
 
 

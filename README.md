@@ -6,18 +6,18 @@ End-to-end data pipeline transforming weekly Port Optimizer updates into operati
 
 This project builds a structured, production-style monitoring system that:
 
-# 📥 Extracts weekly data from Port Optimizer (Los Angeles)
+📥 Extracts weekly data from Port Optimizer (Los Angeles)
   
 🗄 Loads structured datasets into Azure SQL
 
-# 📊 Connects to Power BI for modeling & transformation
+📊 Connects to Power BI for modeling & transformation
 
-# 🔄 Delivers a refresh-ready dashboard for weekly operational review
+🔄 Delivers a refresh-ready dashboard for weekly operational review
 
 This is not a static report.
 It is a repeatable supply chain monitoring pipeline.
 
-# 🎯 Business Objective
+## 🎯 Business Objective
 
 Designed for a senior supply chain analyst who needs visibility every Monday morning.
 
@@ -35,7 +35,7 @@ Are customs delays expected?
 
 The goal is proactive decision support — not reactive reporting.
 
-# 🏗 Architecture
+## 🏗 Architecture
 
 Port Optimizer (Weekly Source)
 → Python Extraction
@@ -45,7 +45,7 @@ Port Optimizer (Weekly Source)
 
 The structure allows weekly refresh and scalability to additional ports.
 
-# 📊 Data Scope – Port of Los Angeles
+## 📊 Data Scope – Port of Los Angeles
 
 The dataset includes operational indicators such as:
 
@@ -83,7 +83,7 @@ Supply chain decision intelligence
 
 🔄 Power Query (data transformation)
 
-# 📂 Project Structure
+## 📂 Project Structure
 la-port-performance-monitor/
 │
 ├── la_port_performance_pipeline.py
@@ -91,14 +91,14 @@ la-port-performance-monitor/
 ├── .env.example
 └── outputs/
 
-# 🚀 How to Run
+## 🚀 How to Run
 
 1️⃣ Configure environment variables (see .env.example)
 2️⃣ Run the Python extraction pipeline
 3️⃣ Connect Power BI to Azure SQL
 4️⃣ Refresh dataset
 
-# 🔮 Future Improvements
+## 🔮 Future Improvements
 
 Automated scheduled extraction
 
